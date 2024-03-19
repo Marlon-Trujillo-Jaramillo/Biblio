@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Registro de Usuarios</title>
+</head>
+<body>
+    <div class="tittle">
+        <h1>Gestión Biblioteca</h1>
+    </div>
+    <div class="login">
+        <div class="formulario">
+            <label for="Nombre" class="subtitle">Nombre</label>
+            <input id="Nombre" type="text" required>
+            <label for="Email" class="subtitle">Email</label>
+            <input id="Email" type="email" required>
+            <label for="Fecha" class="subtitle">Fecha de Nacimiento</label>
+            <input id="Fecha" type="date" required>
+            <button type="submit" id="btn">Registrar usuario</button>
+        </div>
+    </div>
+    <div class="tittle">
+        <h1>Lista de usuarios</h1>
+    </div>
+    <div class="cabezeralista">
+        <ul>
+            <li>#</li>
+            <li>Nombre</li>
+            <li>Email</li>
+            <li>Fecha Nacimiento</li>
+            <li>Acciones</li>
+        </ul>
+    </div>
+    <div class="lista"></div>
+    <script src="script.js"></script>
+</body>
+</html>
